@@ -1,24 +1,50 @@
-<html>
+<!doctype html>
 <html lang="es">
     <head>
     <meta charset="UTF-8">
-    <title>Acceso</title>
-    <link rel="stylesheet" href="Estilos.css">
+    <title>PelisFreak</title>
+    <link rel="stylesheet" type="text/css" href="assets\Estilos.css">
+    <link rel="icon" type="image/png" href="../PaginaWeb/imagenes/favicon.png">
 
     </head>
 
     <body>
         <header class="header">
-            <div class="container"></div>
-            <a href="#" class="logo">LOGO</a>
-            <nav class="navigation"></nav>
-            
+            <div class="container logo-nav-container">
+                <a href="#" class="logo">PELIS FREAK</a>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Acerca de</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Clientes</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <main>
-
+        <main class="main">
+            <div class="container2">
+                <div class="registro">
+                    <section>
+                        <h1>Iniciar Sesión</h1>
+                        <form action="#" method="post"></form>
+                            <fieldset>
+                                <input class="inicio_sesion" type="text" name="nombre_usuario" placeholder="Correo electronico o usuario" id="nombre_usuario" size="30"><br/>
+                                <input class="inicio_sesion" type="password" name="contraseña" placeholder="Contraseña" id="contraseña" size="30"><br/>
+                                <a href="../PaginaWeb/paginas/peliculas.html"><input class="boton" type="submit" value="INICIAR SESION"><br/><br/><br/></a>
+                                <p><a href="../PaginaWeb/paginas/registro.html">¿No tienes cuenta?</a></p>
+                            </fieldset>
+                    </section>
+                </div>
+            </div>
         </main>
         
-        <footer></footer>
+        <footer class="footer">
+            <div class="container">
+                <p>Pagina Web realizada por Ángel Viedma Sanchez. | Copyright © 2017 All Rights Reserved.</p>
+            </div>
+        </footer>
     
     </body>
 </html>
